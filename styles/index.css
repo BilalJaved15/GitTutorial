@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;}
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .topBar {
   color: white;
@@ -35,6 +36,7 @@ li > a:hover {
 }
 
 .topContainer {
+  z-index: 1;
 }
 
 .details {
@@ -44,14 +46,11 @@ li > a:hover {
 }
 
 .detailsText > p {
-  /* font-size: 2em; */
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  /* font-weight: 700; */
 }
 
 #octcat-img {
-  display: block;
   max-width: 250px;
   max-height: 250px;
 }
@@ -70,3 +69,4 @@ li > a:hover {
 .gitTutorial {
   background-color: white;
 }
+

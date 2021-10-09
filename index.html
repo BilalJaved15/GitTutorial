@@ -45,9 +45,10 @@
                 <li><a>Git Commands</a></li>
                 <li><a>Git Branching</a></li>
               </ul>
+            </p>
           </div>
-          </p>
         </div>
+      </div>
         <img id="wave" src="assets/wave.svg" />
         <div class="gitTutorial">
         <div class="container d-flex flex-column text-wrap">
@@ -61,11 +62,36 @@
             the concept of VCS was introduced which makes collaboration on projects trivial.
             VCS stands for Version Control System. As evident from the name, this system
             is used for managing different versions of a project, hence tackling the problem
-            of synchronization. On this webpage, you will find a breif tutorial to get you 
+            of synchronization. On this webpage, you will find a brief tutorial to get you 
             started with git and a few commands followed with a case study, that will get
-            you on track to Collaborating your next project perfectly  </p>
+            you on track to collaborating your next project perfectly.  </p>
         </div>
-      </div>
+        <div class="infoCards container my-5">
+          <h1 class="text-center">Git Concepts & Commands</h1>
+          <div class="container my-5">
+            <h3 class="text-left">Installation</h3>
+            <p class="fs-5 text-left">Git can be installed from their <a class="text-primary" href="https://git-scm.com/" target="blank">
+              official site</a> along with  documentation, cheat sheet, and the GUI version
+              github desktop.
+            </p>
+          </div>
+          <div class="card p-2">
+            <h3 class="card-header">Creating & Initializing a repository</h3>
+            <p class="card-body">After creating an account on github, you can create a new repository by
+              going to your profile -> repositories -> new. After clicking on new, you will have to enter
+              name that you want to display on your repository, repository's visibility (private/public),
+              and add an optional description. The newly created repository can then be either cloned, or
+              pointed to a local repository, using the following commands:
+
+              <br><br>
+              <strong>git clone [url]</strong> to clone repositories
+              <br><br>
+              <strong>git remote add origin [url]</strong> to add remote origin to local repositories
+
+            </p>
+            <img class="img-fluid" src= "./assets/createExample.gif">
+          </div>
+        </div>
       </div>
     </div>
   </body>
