@@ -1,9 +1,8 @@
 * {
   margin: 0;
-}
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;}
 
 .topBar {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
 }
 
@@ -25,6 +24,10 @@ a {
   color: inherit !important;
   text-decoration: none !important;
   cursor: pointer;
+}
+
+li > a:hover {
+  text-decoration: underline;
 }
 
 #wave {
@@ -64,6 +67,6 @@ a {
   color: white;
 }
 
-#asd {
-  height: 600px;
+.gitTutorial {
+  background-color: white;
 }
