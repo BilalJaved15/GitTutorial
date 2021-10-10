@@ -81,3 +81,9 @@ li > a:hover {
   opacity: 1;
   transition: all 0.2s ease-in-out;
 }
+
+@media only screen and (max-width: 600px) {
+  .cheatSheet {
+    right: -220px;
+  }
+}
