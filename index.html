@@ -86,7 +86,7 @@
             <img class="img-fluid" src= "./assets/createExample.gif">
           </div>
           <div class="card p-2 my-5">
-            <h3 class="card-header">Intializing a local repository</h3>
+            <h3 class="card-header">Initializing a local repository</h3>
             <p class="card-body">After creating a new repository, you can initialize a local repository 
               by the following command:
               <br><br>
@@ -134,7 +134,7 @@
           <div class="card p-2 my-5">
             <h3 class="card-header">Rollback</h3>
             <p class="card-body">Deleted some files accidentally? Made some changes that caused a bug? Instead
-              of asking your team member for V2.012391.zip or calling that bug a feature, you can use git's rollback
+              of asking your team member for V2.012391.zip or calling that bug a feature 🤡 , you can use git's rollback
               feature to rollback to a previous commit. First, check the hash of last working project commit you made,
               in this case, "Done Important Work", by the following command:
               <br><br>
@@ -155,15 +155,45 @@
               you start contemplating your whole existence and ask yourself why did I not use a VCS?, by creating
               branches. Git provides the feature of branching your project. You can create branches of your repository
               and have some people work on a specific feature on one branch, and a group of other people on a second
-              feature on another branch. You can use the following commands to create a branch and to switch to a branch.
+              feature on another branch. You can use the following commands to create a branch and to switch to another branch.
               <br><br>
-              <strong>git add [file specifier]</strong> to add files
+              <strong>git branch [branch_name]</strong> to create a new branch with branch_name as branch name
               <br><br>
-              <strong>git commit -m "[message]"</strong> to commit a change
+              <strong>git branch</strong> to view all the branches in a repo
               <br><br>
-              <strong>git push origin [branch]"</strong> to push changes to remote repository
+              <strong>git checkout [branch_name]"</strong> to to switch to branch_name branch
             </p>
-            <img class="img-fluid" src= "./assets/commitExample.png">
+            <img class="img-fluid" src= "./assets/branchExample.png">
+          </div>
+          <div class="card p-2 my-5">
+            <h3 class="card-header">Pushing changes to remote repository</h3>
+            <p class="card-body">To have a remote backup of your work and versions, you can push your changes to 
+              remote repository by the following command:
+              <br><br>
+              <strong>git push origin main [branch_name]</strong> to to push changes to branch_name branch
+            </p>
+            <img class="img-fluid" src= "./assets/pushExample.png">
+          </div>
+          <div class="card p-2 my-5">
+            <h3 class="card-header">Pulling changes from remote repository</h3>
+            <p class="card-body">If there are more than one contributors on a repository, before pushing your changes, it is a 
+              good habit to pull changes from remote repository to local repository to have your local work synced with remote 
+              changes. You can use following commands to pull, fetch remote changes:
+              <br><br>
+              <strong>git fetch origin [branch_name]</strong> to fetch changes from a branch
+              <br><br>
+              <strong>git pull origin [branch_name]</strong> to pull changes from a branch
+            </p>
+            <img class="img-fluid" src= "./assets/pullExample.png">
+          </div>
+          <div class="card p-2 my-5">
+            <h3 class="card-header">Cloning a remote repository</h3>
+            <p class="card-body">Searched your assignment online 🤡 and found a github repository for its solution? No problem! you can
+              clone the repository using the following command:
+              <br><br>
+              <strong>git clone [url]</strong>
+            </p>
+            <img class="img-fluid" src= "./assets/cloneExample.png">
           </div>
         </div>
       </div>
